@@ -37,7 +37,6 @@ class Account:
         for transaction in self.Transactions:
             transaction.Display_transaction()
 
-
 class Transactions:
     transaction_counter = 0
     def __init__(self,trans_id, trans_type, trans_amount, trans_status):
